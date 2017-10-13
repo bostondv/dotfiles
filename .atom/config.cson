@@ -3,30 +3,41 @@
     html:
       indent_size: 2
       preserve_newlines: false
+  "autocomplete-paths":
+    ignoreSubmodules: true
+    maxFileCount: 10000
   core:
-    disabledPackages: []
+    disabledPackages: [
+      "linter"
+      "atom-typescript"
+      "file-icons"
+      "linter-eslint"
+      "linter-js-standard"
+      "linter-ruby"
+      "linter-ui-default"
+      "pigments"
+      "vim-mode-plus"
+    ]
     telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "cobalt2-syntax"
+    ]
   editor:
-    fontFamily: "\"Fira Code\""
-    fontSize: 17
+    fontFamily: "\"Source Code Pro\""
+    fontSize: 16
     invisibles: {}
-    preferredLineLength: 120
+    showIndentGuide: true
     showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
   "file-icons":
     coloured: false
     onChanges: true
-  "flow-ide": {}
   "language-babel":
     taggedTemplateGrammar: [
       "\"(?<=<style jsx>{)|(?<=<style jsx global>{)\":source.css.styled"
     ]
-  linter: {}
-  "linter-js-standard":
-    honorStyleSettings: true
-    showEslintRules: true
-  "linter-ui-default":
-    panelHeight: 255
-    showPanel: true
   "one-dark-ui": {}
   "one-light-ui":
     layoutMode: "Compact"
@@ -35,11 +46,17 @@
       enabled: true
     prettierOptions:
       bracketSpacing: false
-      parser: "flow"
       semi: false
       singleQuote: true
     useEslint: true
   tabs:
     enableVcsColoring: true
+  themes: [
+    "one-dark-ui"
+    "cobalt2-syntax"
+  ]
+  "tree-view": {}
+  "vim-mode-plus":
+    notifiedCoffeeScriptNoLongerSupportedToExtendVMP: true
   welcome:
     showOnStartup: false

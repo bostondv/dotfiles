@@ -19,7 +19,6 @@ brew install tree
 brew install wget
 
 echo " brew installing development dependencies."
-brew install heroku-toolbelt
 brew install node
 
 echo " brew installing games and fun stuff."

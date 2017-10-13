@@ -1,8 +1,8 @@
 [user]
-  name = Theodor Vararu
-  email = theo@vararu.org
-  signingkey = F08553D8
+  name = Boston Dell-Vandenberg
+  email = hello@bostondv.com
+  signingkey = E0F1867A5C3A8508
 [commit]
   gpgsign = true
 [core]
-  excludesfile = /Users/tvararu/.gitignore.global
+  excludesfile = /Users/bostondv/.gitignore.global

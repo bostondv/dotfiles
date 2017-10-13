@@ -18,4 +18,7 @@ cp -rv .ssh ~
 cp -rv .gnupg ~
 cp -rv .bin ~
 
+# GPG signing fix: https://stackoverflow.com/a/42265848
+echo "export GPG_TTY=$(tty)" >> ~/.profile
+
 echo " All done! Enjoy.\n"

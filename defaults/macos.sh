@@ -123,23 +123,4 @@ echo "- Disable Spotlight indexing for any volume that gets mounted and has not 
 # Use `sudo mdutil -i off "/Volumes/foo"` to stop indexing any volume.
 sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
 
-echo "\n Transmission.app."
-
-echo "- Use ~/Downloads to store incomplete downloads, and as default download folder."
-defaults write org.m0k.transmission UseIncompleteDownloadFolder -bool true
-defaults write org.m0k.transmission IncompleteDownloadFolder -string "${HOME}/Downloads"
-defaults write org.m0k.transmission DownloadLocationConstant -integer 1
-
-echo "- Don’t prompt for confirmation before downloading."
-defaults write org.m0k.transmission DownloadAsk -bool false
-
-echo "- Trash original torrent files."
-defaults write org.m0k.transmission DeleteOriginalTorrent -bool true
-
-echo "- Hide the donate message."
-defaults write org.m0k.transmission WarningDonate -bool false
-
-echo "- Hide the legal disclaimer."
-defaults write org.m0k.transmission WarningLegal -bool false
-
 echo "\n All done."
