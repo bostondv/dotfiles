@@ -13,6 +13,7 @@ brew install fish
 brew install gpg
 brew install hub
 brew install kryptco/tap/kr
+brew install fisherman/tap/fisherman
 brew install mosh
 brew install ssh-copy-id
 brew install tree
