@@ -21,6 +21,7 @@ brew install wget
 
 echo " brew installing development dependencies."
 brew install node
+brew install yarn
 
 echo " brew installing games and fun stuff."
 brew install archey

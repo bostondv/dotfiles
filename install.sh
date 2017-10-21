@@ -6,6 +6,7 @@ echo "\n Hey there. Never mind me, just setting up your system.\n"
 
 ./homebrew/install.sh
 ./fisherman/install.sh
+./node/install.sh
 
 ./configuration/atom.sh
 ./configuration/keybase.sh
