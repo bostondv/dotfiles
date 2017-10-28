@@ -2,13 +2,19 @@
 
 echo " Installing npm development dependencies."
 
+# Linting
+npm i -g eslint
+npm i -g eslint-plugin-react
+npm i -g prettier
+
+# Mobile development
 npm i -g cordova
 npm i -g ios-deploy
+npm i -g ios-sim
 npm i -g ionic
+npm i -g exp
+npm i -g react-native-cli
 npm i -g create-react-app
 npm i -g create-react-native-app
-npm i -g eslint
-npm i -g prettier
-npm i -g react-native-cli
 
 echo " Successfully installed all npm dependencies.\n"
