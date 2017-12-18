@@ -18,6 +18,7 @@ brew install mosh
 brew install ssh-copy-id
 brew install tree
 brew install wget
+brew install gradle
 
 echo " brew installing development dependencies."
 brew install node
