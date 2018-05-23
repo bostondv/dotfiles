@@ -7,4 +7,4 @@
 [core]
   excludesfile = ~/.gitignore.global
 [include]
-  path = ~/.config/gitalias.txt
+  path = ~/.config/git/aliases.txt

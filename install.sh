@@ -19,8 +19,6 @@ cp -rv .atom ~
 cp -rv .gnupg ~
 cp -rv .bin ~
 
-./configuration/git.sh
-
 # GPG signing fix: https://stackoverflow.com/a/42265848
 echo "export GPG_TTY=$(tty)" >> ~/.profile
 
