@@ -7,7 +7,7 @@ npm i -g eslint
 npm i -g eslint-plugin-react
 npm i -g prettier
 
-# Mobile development
+# App development
 npm i -g cordova
 npm i -g ios-deploy
 npm i -g ios-sim
