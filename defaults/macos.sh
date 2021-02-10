@@ -68,6 +68,9 @@ defaults write com.apple.dock persistent-apps -array ""
 
 echo "\n Finder."
 
+echo "- Show all files"
+defaults write com.apple.Finder AppleShowAllFiles true
+
 echo "- Set default path to HOME directory."
 defaults write com.apple.finder NewWindowTarget -string "PfLo"
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
